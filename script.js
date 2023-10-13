@@ -9,7 +9,7 @@ function generateBox() {
     _("play").textContent = "Restart";
     var a = '';
     points = 0;
-    console.log(redPosition);
+    // console.log(redPosition);
     _("points").innerHTML = `Your score is : ${points}`;
 
     for (var i = 0; i < 16; i++) {
